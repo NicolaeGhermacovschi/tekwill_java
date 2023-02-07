@@ -17,7 +17,6 @@ public class Main {
 
         practica();
 
-
     }
 
     private static void practica() {
@@ -50,9 +49,7 @@ public class Main {
         advP.setNumberFlat(15);
         advP.setCharacterFlat('A');
 
-        System.out.println(p.toString());
         System.out.println(advP.toString());
-
 
         AdvPerson advP1 = new AdvPerson();
         advP1.setFirstName("Nicolae");
@@ -67,7 +64,7 @@ public class Main {
         advP1.setNumberFlat(225);
         advP1.setCharacterFlat('C');
 
-        System.out.println(advP1.personToString() + " " +  advP1.toString());
+        System.out.println(advP1.toString());
 
         Person p1 =  new Person();
         p1.setFirstName("Anton");

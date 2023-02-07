@@ -53,8 +53,13 @@ public class AdvPerson extends Person {
 
     @Override
     public String toString() {
-        return "AdvPerson{" +
-                "streetHome='" + streetHome + '\'' +
+        return "AdvPerson info{firstName= '" + getFirstName() + '\'' +
+                ", lastName='" + getLastName() + '\'' +
+                ", IDNP=" + getIDNP() +
+                ", email='" + getEmail() + '\'' +
+                ", dateBH=" + getDateBH() +
+                ", gender=" + getGender() +
+                " streetHome='" + streetHome + '\'' +
                 ", streetHomeNumber=" + streetHomeNumber +
                 ", numberFlat=" + numberFlat +
                 ", characterFlat=" + characterFlat +

@@ -66,8 +66,6 @@ public class Person{
         } else {
             this.dateBH = dateBH;
         }
-
-
     }
 
     public char getGender() {
@@ -89,16 +87,7 @@ public class Person{
                 ", gender=" + gender +
                 '}';
     }
-    public String personToString() {
-        return "Person{" +
-                "firstName='" + firstName + '\'' +
-                ", lastName='" + lastName + '\'' +
-                ", IDNP=" + IDNP +
-                ", email='" + email + '\'' +
-                ", dateBH=" + dateBH +
-                ", gender=" + gender +
-                '}';
-    }
+
     public void occupation() {
 
         if ( ( 2023 - getDateBH().getYear() > 18 ) ) {
